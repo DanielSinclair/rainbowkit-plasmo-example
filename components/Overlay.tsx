@@ -1,16 +1,16 @@
 
+import '@rainbow-me/rainbowkit/dist/index.css'
 import { ConnectButton } from "@rainbow-me/rainbowkit"
 
 const Overlay = () => {
   return (
-    <span
-      style={{
-        background: "white",
-        padding: 12
-      }}>
-      HELLO WORLD TOP
-      <ConnectButton/>
-    </span>
+    <div style={{ backgroundColor: "#36454F", width: "100vw", padding:0 }}>
+      <header>
+        <p>Hello, World!</p>
+        <p>I'm a Content Script in a Chrome Extension!</p>
+        <ConnectButton/>
+      </header>
+    </div>
   )
 }
 

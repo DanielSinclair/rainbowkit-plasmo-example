@@ -4,7 +4,7 @@ import RainbowKit from "../components/RainbowKit"
 import OverlayComponent from "../components/Overlay"
 
 export const config: PlasmoContentScript = {
-  matches: ["<all_urls>"],
+  matches: ["<all_urls>"]
 }
 
 const Overlay = () => {
